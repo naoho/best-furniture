@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100;400;500&family=Oswald:wght@300;700&family=Roboto+Condensed:wght@500;600&display=swap" rel="stylesheet">
+  <title>WebByRuko.</title>
+</head>
+<body>
+  <!--ヘッダーコンテンツ-->
+  <header>
+    <div class="header__head">
+      <a href="index.html" class="header__logo">
+        <p>BEST FURNITURE</p>
+      </a>
+      <ul class="header__list">
+        <li><a href="index.html" class="header__list--item">Home</a></li>
+        <li><a href="product.html" class="header__list--item">Product</a></li>
+        <li><a href="shop.html" class="header__list--item">Shop</a></li>
+        <li><a href="access.html" class="header__list--item">Access</a></li>
+        <li><a href="contact.html" class="header__list--item">Contact</a></li>
+      </ul>
+      <!--ハンバーガーメニュー-->
+      <div class="SP__header__inquiry">
+        <div class="openbtn3"><span></span><span></span><span></span></div>
+      </div>
+      <nav class="hamburger__menu">
+        <ul class="hamburger__list">
+          <li><a href="index.html" class="hamburger__content">Home</a></li>
+          <li><a href="product.html" class="hamburger__content">Product</a></li>
+          <li><a href="shop.html" class="hamburger__content">Shop</a></li>
+          <li><a href="access.html" class="hamburger__content">Access</a></li>
+          <li><a href="contact.html" class="hamburger__content">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--main-->
+  <main>
+    <section class="product">
+      <h1 class="contents__title">Our products</h1>
+      <div class="product__search">
+        <form id="form" action="#" method="get">
+          <input class="product__sbox" name="s" type="text" placeholder="search with free word"/>
+          <button type="submit" class="product__sbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
+      <div class="product__wrapper">
+        <div class="product__item--line table">
+          <div class="product__item">
+            <h2>Wooden table</h2>
+            <a href="product__contents.html"><img src="img/promise03.jpg" alt="product-img" class="product__img"></a>
+            <p>$10.00</p>
+            <a class="product__button" href="product__contents.html">
+              <p>Check More</p>
+            </a>
+          </div>
+          <div class="product__item">
+            <h2>Iron table</h2>
+            <a href="product__contents.html"><img src="img/promise03.jpg" alt="product-img" class="product__img"></a>
+            <p>$12.00</p>
+            <a class="product__button" href="product__contents.html">
+              <p>Check More</p>
+            </a>
+          </div>
+          <div class="product__item">
+            <h2>Fancy table</h2>
+            <a href="product__contents.html"><img src="img/promise03.jpg" alt="product-img" class="product__img"></a>
+            <p>$11.00</p>
+            <a class="product__button" href="product__contents.html">
+              <p>Check More</p>
+            </a>
+          </div>
+        </div>
+        <div class="product__item--line chair">
+          <div class="product__item">
+            <h2>Wooden chair</h2>
+            <a href="product__contents.html"><img src="img/promise03.jpg" alt="product-img" class="product__img"></a>
+            <p>$10.00</p>
+            <a class="product__button" href="product__contents.html">
+              <p>Check More</p>
+            </a>
+          </div>
+          <div class="product__item">
+            <h2>Iron chair</h2>
+            <a href="product__contents.html"><img src="img/promise03.jpg" alt="product-img" class="product__img"></a>
+            <p>$12.00</p>
+            <a class="product__button" href="product__contents.html">
+              <p>Check More</p>
+            </a>
+          </div>
+          <div class="product__item">
+            <h2>Fancy table</h2>
+            <a href="product__contents.html"><img src="img/promise03.jpg" alt="product-img" class="product__img"></a>
+            <p>$11.00</p>
+            <a class="product__button" href="product__contents.html">
+              <p>Check More</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--フッター-->
+  <footer>
+    <div class="footer__wrapper">
+      <a href="#" class="footer__logo">
+        <p>BEST FURNITURE</p>
+      </a>
+      <ul class="footer__list">
+        <li><a href="index.html" class="footer__list--item">Home</a></li>
+        <li><a href="product.html" class="footer__list--item">Product</a></li>
+        <li><a href="shop.html" class="footer__list--item">Shop</a></li>
+        <li><a href="access.html" class="footer__list--item">Access</a></li>
+        <li><a href="contact.html" class="footer__list--item">Contact</a></li>
+      </ul>
+    </div><!--/footer__wrapper-->
+    <div class="footer__copyright--wrapper">
+      <p class="footer__copyright">&copy;Logo,2023</p>
+    </div>
+    </footer>
+  
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
+
+<!--
+
+  
+-->
